@@ -27,12 +27,12 @@
   --box-shadow: 0 2rem 3rem varvar(--color-light);
 }
 
-.dark-theme-variables{
+.dark-theme-variables {
   --color-background: #181a1e;
   --color-white: #202528;
-  --color-dark:#edeffd;
-  --color-dark-variant:#a4bdcc;
-  --color-light:rgba(0, 0, 0, 0.4);
+  --color-dark: #edeffd;
+  --color-dark-variant: #a4bdcc;
+  --color-light: rgba(0, 0, 0, 0.4);
   --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
@@ -541,9 +541,9 @@ main .resent-orders a {
   justify-content: center;
 }
 
-.right .sales-analiytics .add-product:hover{
+.right .sales-analiytics .add-product:hover {
   background: var(--color-primary);
-  color:white ;
+  color: white;
 }
 
 .right .sales-analiytics .add-product div {
@@ -562,9 +562,8 @@ main .resent-orders a {
   .container {
     width: 94%;
     grid-template-columns: 1fr;
-  }x
-
-  aside {
+  }
+  x aside {
     position: fixed;
     left: -100%;
     background: var(--color-danger);
@@ -578,7 +577,7 @@ main .resent-orders a {
   }
 
   @keyframes showMenu {
-    top{
+    top {
       background-color: #000;
       left: 0;
     }
@@ -649,7 +648,6 @@ main .resent-orders a {
   }
 
   aside .logo {
-    
     margin-left: 1rem;
   }
 
